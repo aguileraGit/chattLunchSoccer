@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(128, 128, 128, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -220,6 +220,72 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #2dc997;
   border: 2px solid #2dc997;
+}
+
+#hero .form #sendmessage {
+  color: #2dc997;
+  border: 1px solid #2dc997;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#hero .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#hero .form #sendmessage.show, #hero .form #errormessage.show, #hero .form .show {
+  display: block;
+}
+
+#hero .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#hero .form input {
+  text-align: center;
+}
+
+#hero .form input, #hero .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  color: red;
+}
+
+#hero .form button[type="submit"] {
+  background: #2dc997;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+#hero .form button[type="submit"]:hover {
+  background: #51d8ad;
+}
+
+#hero .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+  position: relative;
+  background: #fafafa;
+  width: 80%;
 }
 
 /*--------------------------------------------------------------
@@ -942,7 +1008,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contact .form input, #contact #hero .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
