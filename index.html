@@ -81,9 +81,28 @@
   ============================-->
   <section id="hero">
     <div class="hero-container">
-      <h1>Welcome to Regna</h1>
-      <h2>We are team of talanted designers making websites with Bootstrap</h2>
-      <a href="#about" class="btn-get-started">Get Started</a>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Subscribe or Unsubscribe: <select name="role[]" multiple>
+            <option value="subscribe">Subscribe</option>
+            <option value="unsubscribe">Unsubscribe</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+
     </div>
   </section><!-- #hero -->
 
