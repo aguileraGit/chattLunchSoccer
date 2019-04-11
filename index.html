@@ -81,27 +81,28 @@
   ============================-->
   <section id="hero">
     <div class="hero-container">
-
-      <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Subscribe or Unsubscribe: <select name="role[]" multiple>
-            <option value="subscribe">Subscribe</option>
-            <option value="unsubscribe">Unsubscribe</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+      <div class="col-lg-5 col-md-8">
+        <div class="form">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <input type="radio" name="subscribes" value="subscribe" checked> Subscribe<br>
+              <input type="radio" name="subscribes" value="unsubscribe"> Unsubscribe<br>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </div>
+      </div>
 
     </div>
   </section><!-- #hero -->
