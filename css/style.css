@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #51d8ad;
 }
 
-#hero .box {
+#hero .box-container {
   padding: 20px 20px 20px 20px;
   border: 1px solid #767676;
   border-radius: 15px;
