@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../img/chatt.jpeg) top center;
   background-size: cover;
   position: relative;
+  padding: 100px 0 0 0;
 }
 
 @media (min-width: 1024px) {
@@ -161,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-container {
-  position: absolute;
+  position: relative;
   bottom: 0;
   top: 0;
   left: 0;
@@ -200,6 +201,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+
+#hero hr {
+  border-top: 1px dashed #8c8b8b;
 }
 
 #hero .btn-get-started {
@@ -284,7 +289,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 15px;
   position: relative;
   background: #ffffff;
-  //width: 80%;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.9;
