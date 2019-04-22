@@ -251,13 +251,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
-#hero .form .validation {
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
 #hero .form input {
   text-align: center;
 }
