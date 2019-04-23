@@ -238,7 +238,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .form #errormessage {
-  color: red;
   display: none;
   border: 1px solid red;
   text-align: center;
@@ -259,7 +258,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  color: red;
   text-align: center;
 }
 
